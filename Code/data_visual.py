@@ -35,6 +35,8 @@ if __name__ == '__main__':
             y = np.array(data[class2])+vary
             P[i, j].scatter(x, y, c=colors, s=.7)
             P[j, i].scatter(y, x, c=colors, s=.7)
+    
+    plt.savefig('Plots_features.png', bbox_inches='tight')
 
 
 
